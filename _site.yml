@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "About Me"
       href: about.html
-    - text: "Resume"
+    - text: "Research Experience"
       href: resume.html
     - text: "Publications"
       href: publications.html
