@@ -1,0 +1,54 @@
+---
+title: "Publications"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+---
+
+# 2020
+
+Bellerose, M., Diaw, M., Pinchoff, J., Kangwana, B., Austrian, K. (2020). Pre-pandemic influences on girls’ transitions to adulthood during COVID-19. Accepted at Girlhood Studies. 
+
+Menzies, N.A., Bellerose, M., Testa, C., Swartwood, N., Malyuta, Y., Cohen, T., Marks, S.M., Hill, A.N., Date A.A., Maloney S.A., Bowden, S.E., Grills, A.W., Salomon, J.A. (2020). Impact of effective global tuberculosis control on health and economic outcomes in the United States. American Journal of Respiratory and Critical Care Medicine. 
+
+Rönn, M., Dunville, R., Wang, L.Y., Bellerose, M., Malyuta, Y., Menzies, N.A., Aslam, M., Lewis, F., Walker-Baban, C., Asbel, L., Parchem, S., Masinter, L., Perez, E., Gift, T., Hsu, K., Barrios, L., Salomon, J.A. (2020). Mathematical modeling study of school-based chlamydia screening: potential impact on chlamydia prevalence in intervention schools and surrounding communities. BMC Public Health. 
+
+Tuite, A.R., Testa, C., Rönn, M., Bellerose, M., Gift, T., Fridge, J., Molotnikov, L., Desmarais, C., Berruti, A., Menzies, N.A., Malyuta, Y., Hsu, K., Salomon, J.A. (2020). Exploring how epidemic context influences syphilis screening impact: a mathematical modeling study. Sexually Transmitted Diseases.
+
+Earnest, R., Rönn, M., Zhu, L., Hsu, K., Chesson, H., Gift, T., Trikalinos, T.A., Bellerose, M., Testa, C., Menzies, N.A., Malyuta, Y., Salomon, J.A. (2020). Population-level benefits of extragenital gonorrhea screening among men who have sex with men: an exploratory modeling analysis. Sexually Transmitted Diseases. 
+
+# 2019
+
+Bellerose, M., Zhu, L., Hagan, L.M., Thompson, W.W., Randall, L.M., Malyuta, Y., Salomon, J.A., Linas, B.P. (2019). A review of network simulation models of hepatitis C and HIV among people who inject drugs. International Journal of Drug Policy.
+
+Rönn, M., Testa, C., Tuite, A., Chesson, H., Gift, T., Shumacher, C., Lee, S., Zhu, L., Bellerose, M., Earnest, R., Malyuta, Y., Trang, N., Robert, K., Hsu, K., Salomon, J.A., Menzies, N.A. (2019). The potential population-level impact of different gonorrhea screening strategies in Baltimore and San Francisco: an exploratory mathematical modeling analysis. Sexually Transmitted Diseases.
+
+Rönn, M., Menzies, N.A., Gift, T., Chesson, H., Trikalinos, T.A., Bellerose, M., Malyuta, Y., Berruti, A., Gaydos, C., Hsu, K., Salomon, J.A. (2019). Potential for point-of-care tests to reduce chlamydia associated burden in the United States: a mathematical modeling analysis. Clinical Infectious Diseases. DOI: 10.1093/ciz519.
+
+# 2018
+
+Menzies, N.A., Wolf, E., Connors, D., Bellerose, M., Sbara, A.N., Cohen, T., Hill, A.N., Yaesoubi, R., Galer, K., White, P.J., Abubaker, I., Salomon, J.A. (2018). Progression from latent infection to active disease in dynamic tuberculosis transmission models: a systematic review of the validity of modeling assumptions. Lancet Infectious Diseases, 18(8), e228-e238.
+
+
+# Under Review
+
+Bellerose, M., Alva, S., Magalona, S., Awoonor-Williams, K., Sacks, E. (2020). Supervision of community health nurses in Ghana: A mixed-methods study on experiences and expectations for improved performance. 
+
+Bellerose, M., Awoonor-Williams, K., Alva, S., Magalona, S., Sacks, E. (2020). “Let me move to another level”: career advancement desires and opportunities for community health nurses in Ghana. 
+
+Rowell-Cunsolo, T.L., Bellerose, M., Rahwa, H., Hart, C. (2020). Hazards of anti-blackness in the United States.
+
+Rowell-Cunsolo, T.L., Bellerose, M., Hart, C. (2020). Access to substance use treatment among formerly incarcerated individuals during the COVID era: potential challenges and strategies to overcome them. 
+Rowell-Cunsolo, T.L., Bellerose, M. (2020). Utilization of substance use treatment among adolescent and adult criminal justice involved individuals in the United States. 
+
+Rowell-Cunsolo, T.L., Bellerose, M., Hart, C. (2020). Access to substance use treatment among formerly incarcerated individuals in the COVID era: potential challenges and strategies to overcome them. 
+
+Rowell-Cunsolo, T.L., Hu, G., Bellerose, M., Liu, J., Larson, E. (2020). Trends in comorbidities among HIV-infected hospital admissions in New York City. 
+
+Mendy, V., Rowell-Cunsolo, T.L, Bellerose, M., Vargas, R., Zhang, L., Byambaa, E. (2020). Temporal trends in hypertension death rate in Mississippi, 2000-2018. 
+
+Earnest, R., Rönn, M., Zhu, L., Hsu, K., Chesson, H., Gift, T., Bellerose, M., Testa, C., Menzies, N.A., Malyuta, Y., Berruti, A., Menon-Johansson, A.S., Salomon, J.A. (2020). Modeling the cost-effectiveness of express multi-site gonorrhea screening among men who have sex with men in the United States. 
+
+Mkuu, R., Montel-Ishino, F.A., Bellerose, M., Rowell-Cunsolo, T.L. (2020). Intersectionality of factors associated with HIV risk behavior among formerly incarcerated Black drug offenders. 

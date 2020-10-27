@@ -3,13 +3,15 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "About Me"
       href: about.html
     - text: "Resume"
       href: resume.html
-    - text: "Plots"
+    - text: "Publications"
+      href: publications.html
+    - text: "p8105 Plots"
       href: plots.html
-    - text: "Dashboard"
+    - text: "p8105 Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<meb2308@cumc.columbia.edu>
