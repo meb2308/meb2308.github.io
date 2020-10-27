@@ -9,9 +9,9 @@ navbar:
       href: resume.html
     - text: "Publications"
       href: publications.html
-    - text: "p8105 Plots"
+    - text: "Plots"
       href: plots.html
-    - text: "p8105 Dashboard"
+    - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<meb2308@cumc.columbia.edu>

@@ -1,7 +1,5 @@
 ---
-title: "p8105 HW4 Plots"
-author: Meghan Bellerose
-date: October 27, 2020
+title: "Research Experience"
 output:
   html_document:
     toc: true
@@ -9,3 +7,4 @@ output:
     code_folding: hide
 ---
 
+...

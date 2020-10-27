@@ -11,7 +11,7 @@
 
 
 
-<title>Meghan Bellerose</title>
+<title>About Me</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,6 +23,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
@@ -250,6 +251,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -386,26 +390,22 @@ div.tocify {
 
 <div class="fluid-row" id="header">
 
-
-
-<h1 class="title toc-ignore">Meghan Bellerose</h1>
-
-</div>
-
-
-<p>MPH Candidate Columbia University Mailman School of Public Health</p>
-<p><img src ="images/meghan.jpg" style = width:75%"></p>
-<div id="about" class="section level2">
-<h2>About</h2>
-<p>I am a current MPH student at Columbia Mailman University School of Public Health. I received a BA in biochemistry and sociology from Bowdoin College in 2017.</p>
-</div>
-<div id="contact-information" class="section level2">
-<h2>Contact Information</h2>
-<ul>
-<li>Email: <a href="mailto:meb2308@cumc.columbia.edu" class="email">meb2308@cumc.columbia.edu</a></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/meghan-bellerose/" class="uri">https://www.linkedin.com/in/meghan-bellerose/</a></li>
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
 </ul>
 </div>
+
+
+
+<h1 class="title toc-ignore">About Me</h1>
+
+</div>
+
+
+<p>…</p>
 
 
 
@@ -442,6 +442,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 <script>
 $(document).ready(function ()  {
