@@ -9,7 +9,7 @@ output:
 MPH Candidate
 Columbia University Mailman School of Public Health
 
-<img src ="images/meghan.jpg" style = width:75%">
+<img src ="images/meghan.jpg" style = width:50%">
 
 ## About
 

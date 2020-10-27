@@ -7,4 +7,34 @@ output:
     code_folding: hide
 ---
 
-...
+[Current CV] ("Bellerose_CV_2020.pdf")
+
+### Research Assistant
+#### Columbia School of Nursing, New York City, NY
+##### 10/2020 – Present (part time)
+
+Worked with PI Tawandra Rowell-Cunsolo on studies focused on criminal justice involved populations, people who inject drugs (PWID), and people living with HIV (PLHIV). Built logistic regression models to explore factors related to substance use treatment utilization, analyzed Medicaid and Medicare claims data to reveal trends in HIV comorbidities using SPSS, and designed and administered quantitative surveys and focus group discussion guides.
+
+### Research Lead 
+#### White Ribbon Alliance, Washington, D.C.
+##### 8/2020 – Present (part time)
+
+Wrote an academic manuscript to share the results of the global What Women Want Campaign, which asked over a million women to share their top reproductive health demand, and performed additional analyses by age group and country.
+
+### Research Lead 
+#### Johns Hopkins Bloomberg School of Public Health, Baltimore, MD
+##### 5/2020 – Present	(part time)
+
+Under the direction of PI Emma Sacks, wrote two mixed-methods manuscripts on the supervision and career advancement opportunities of community health nurses in Ghana.
+
+### Practicum with the Poverty, Gender, and Youth Program
+#### Population Council, Nairobi, Kenya (remote)
+##### 6/2020 – 8/2020	
+
+Led an analysis of the impact of pre-pandemic characteristics on adolescent girls’ educational plans, economic status, and health during COVID-19 in informal settlements in Nairobi. Calculated over 300 Department of Health Services adolescent health indicators in Stata to inform government interventions in four counties. 
+
+### Research Assistant
+#### Global Health Department, Harvard T.H. Chan School of Public Health, Boston, MA
+##### 6/2017 – 6/2019	(full time)
+
+Contributed to mathematical modeling studies produced by the Prevention Policy Modeling Lab under the direction of Josh Salomon and Nick Menzies. Used Stata and SAS to calculate weighted prevalence estimates to inform STI, TB, and HPV transmission models. Published a review of network models of HCV and HIV among PWID. 
