@@ -1,0 +1,20 @@
+name: "Meghan Bellerose"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Plots"
+      href: plots.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<meb2308@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/<meb2308>/
+output:
+  html_document:
+    theme: paper

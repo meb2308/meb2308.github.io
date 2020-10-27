@@ -1,0 +1,15 @@
+---
+title: "Meghan Bellerose"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+MPH Candidate
+Columbia University Mailman School of Public Health
+
+<img src ="images/meghan.jpg" style = width:75%">
+
+# Reserarch
+
