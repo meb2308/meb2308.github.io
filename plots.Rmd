@@ -44,10 +44,7 @@ data("instacart")
 
 instacart = 
   instacart %>% 
-  select(order_id, order_dow, order_hour_of_day, reordered, product_id, product_name, department) %>% 
-  mutate(
-    order_dow = recode(order_dow, "0" = "Sunday", "1" = "Monday", "2" = "Tuesday", "3" = "Thursday", "4" = "Friday", "6" = "Saturday")
-  ) %>% 
+  select(order_id, order_hour_of_day, reordered, user_id, product_id, product_name, department) %>% 
   sample_n(10000)
 ```
 
@@ -95,16 +92,17 @@ instacart %>%
 Most orders are placed in the late morning and the afternoon. Most departments see orders throughout the day, with the exception of a few departments, such as alcohol (where items are rarely ordered before 9am).
 
 
-## Scatterplot 
+## Proprtion reordered
 
-This plot shows the number of products ordered by department. 
+This scatterplot shows the proportion of products that are re-ordered. 
 
 ```{r}
 instacart %>% 
-  group_by(product_id) %>% 
+  group_by(product_name) %>% 
   summarize(proportion_reordered = mean(reordered), n=n()) %>% 
   plot_ly(
-    x = ~n, y = ~prop_reordered,
-    alpha = .5, type = "scatter", mode = "markers"
-  )
+    x = ~n, y = ~proportion_reordered,
+    alpha = .5, type = "scatter", mode = "markers")
 ```
+
+The plot indicates that, as we would expect, products that are ordered most often are also re-ordered most often, but there is a tapering effect.  
