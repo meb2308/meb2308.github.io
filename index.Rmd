@@ -9,7 +9,7 @@ output:
 MPH Candidate,
 Columbia University Mailman School of Public Health
 
-<img src ="images/meghan.jpg" style = "width:75%">
+<img src ="images/meghan.jpg" style = "width:50%">
 
 
 ## About Me
@@ -22,8 +22,8 @@ My past research has focused on global respectful maternity care and utilizing m
 
 I am a former sprinter turned marathon runner, cyclist, hiker, and lover of fancy doughnuts.
 
-<img src ="images/hike.jpg" style = "width:50%"> 
-<img src ="images/run.jpg" style = "width:30%">
+<img src ="images/hike.jpg" style = "width:40%"> 
+<img src ="images/run.jpg" style = "width:24%">
 
 ## Contact Information
 
