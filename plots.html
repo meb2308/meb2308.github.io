@@ -28,6 +28,13 @@
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -359,9 +366,6 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="about.html">About Me</a>
-</li>
-<li>
   <a href="resume.html">Research Experience</a>
 </li>
 <li>
@@ -409,7 +413,37 @@ div.tocify {
 </div>
 
 
+<div id="instacart" class="section level1">
+<h1>Instacart</h1>
+<p>The following plots were generated using a sample of the 2017 Instacart online grocery orders dataset.</p>
+<div id="setup-and-data-download" class="section level3">
+<h3>Setup and data download</h3>
+<pre class="r"><code>data(&quot;instacart&quot;)
 
+instacart = 
+  instacart %&gt;% 
+  select(order_id, order_dow, order_hour_of_day, user_id, product_id, product_name, department) %&gt;% 
+  mutate(
+    order_dow = recode(order_dow, &quot;0&quot; = &quot;Sunday&quot;, &quot;1&quot; = &quot;Monday&quot;, &quot;2&quot; = &quot;Tuesday&quot;, &quot;3&quot; = &quot;Thursday&quot;, &quot;4&quot; = &quot;Friday&quot;, &quot;6&quot; = &quot;Saturday&quot;)
+  ) %&gt;% 
+  sample_n(10000)</code></pre>
+<p>The sample contains 10000 rows and 7 columns, with each row representing a single product from an instacart order. Variables include identifiers for the order and product, the day and time of the order, the grocery department, and the product name. In total, there are 4655 products found in 9468 orders from 9468 distinct users.</p>
+</div>
+<div id="scatterplot" class="section level2">
+<h2>Scatterplot</h2>
+<p>This plot shows the number of products ordered by department.</p>
+<pre class="r"><code>instacart %&gt;% 
+  count(department) %&gt;% 
+  mutate(
+    department = fct_reorder(department, n)) %&gt;%
+  plot_ly(
+    x = ~department, y = ~n, 
+    alpha = .5, type = &quot;scatter&quot;, mode = &quot;markers&quot;
+  )</code></pre>
+<div id="htmlwidget-4e6578a9f8c947a6616d" style="width:90%;height:576px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4e6578a9f8c947a6616d">{"x":{"visdat":{"77137be625e":["function () ","plotlyVisDat"]},"cur_data":"77137be625e","attrs":{"77137be625e":{"x":{},"y":{},"mode":"markers","alpha":0.5,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"department","type":"category","categoryorder":"array","categoryarray":["bulk","other","pets","alcohol","missing","international","babies","personal care","breakfast","meat seafood","household","dry goods pasta","canned goods","bakery","deli","pantry","frozen","beverages","snacks","dairy eggs","produce"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"n"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["alcohol","babies","bakery","beverages","breakfast","bulk","canned goods","dairy eggs","deli","dry goods pasta","frozen","household","international","meat seafood","missing","other","pantry","personal care","pets","produce","snacks"],"y":[41,115,338,819,229,7,316,1593,353,290,703,250,98,237,57,7,566,161,34,2926,860],"mode":"markers","type":"scatter","marker":{"color":"rgba(31,119,180,0.5)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,0.5)"},"error_x":{"color":"rgba(31,119,180,0.5)"},"line":{"color":"rgba(31,119,180,0.5)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 
