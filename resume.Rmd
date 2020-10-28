@@ -4,10 +4,7 @@ output:
   html_document
 ---
 
-
-[Current CV] ("images/Bellerose_CV_2020.pdf")
-
-
+[Current CV]("Bellerose_CV_2020.pdf")
 
 
 ### Research Assistant

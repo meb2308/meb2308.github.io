@@ -17,4 +17,4 @@ navbar:
       href: http://github.com/<meb2308>/
 output:
   html_document:
-    theme: paper
+    theme: flatly

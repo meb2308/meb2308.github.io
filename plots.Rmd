@@ -1,5 +1,5 @@
 ---
-title: "p8105 HW4 Plots"
+title: "P8105 HW4 Plots"
 author: Meghan Bellerose
 date: October 27, 2020
 output:
@@ -11,9 +11,9 @@ output:
 
 # Instacart 
 
-The following plots were generated using a random sample of the 2017 Instacart Online Grocery Orders dataset. 
+The following plots were generated using a random sample of the [2017 Instacart Online Grocery Orders Dataset](https://p8105.com/dataset_instacart.html). 
 
-### Setup and data download
+### Data Cleaning and Description
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -50,13 +50,13 @@ instacart =
 
 The sample contains `r nrow(instacart)` randomly selected rows and `r ncol(instacart)` columns, with each row representing a single product from an instacart order. Variables include identifiers for the order and product, the day and time of the order, the grocery department, and the product name. In total, there are `r instacart %>% select(product_id) %>% distinct %>% count` products found in `r instacart %>% select(user_id, order_id) %>% distinct %>% count` orders.
 
-The top 20 bestselling items are listed in the table below:
+The top 10 bestselling items are listed in the table below:
 
 ```{r}
 instacart %>% 
   count(product_name) %>% 
   mutate(rank = min_rank(desc(n))) %>% 
-  filter(rank < 20) %>% 
+  filter(rank < 11) %>% 
   arrange(desc(n)) %>%
   knitr::kable()
 ```
@@ -75,8 +75,6 @@ instacart %>%
     type = "bar", colors = "viridis")
 ```
 
-Produce, dairy/eggs, and snacks are the top 3 departments from which orders come.
-
 ## Boxplot
 
 This plot shows the time of day (hour 0-24) when orderes were placed by department.
@@ -89,7 +87,7 @@ instacart %>%
     type = "box", colors = "viridis")
 ```
 
-Most orders are placed in the late morning and the afternoon. Most departments see orders throughout the day, with the exception of a few departments, such as alcohol (where items are rarely ordered before 9am).
+The largest number of orders are placed in the late morning and the afternoon. Orders are placed for most departments throughout the day, with the exception of a few departments, such as alcohol (where items are rarely ordered before 9am).
 
 
 ## Proprtion reordered
@@ -105,4 +103,4 @@ instacart %>%
     alpha = .5, type = "scatter", mode = "markers")
 ```
 
-The plot indicates that, as we would expect, products that are ordered most often are also re-ordered most often, but there is a tapering effect.  
+The plot indicates that, as we would expect, products that are ordered most often are also re-ordered most often, but there is a tapering or ceiling effect.  
